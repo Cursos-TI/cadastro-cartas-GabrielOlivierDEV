@@ -7,9 +7,9 @@
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
 
-    char estado_1, estado_2; /* Estado = 1 letra */
-    char codigo_1[4], codigo_2[4]; /* Código da cidade = 3 letras + \0 */
-    char nome_1[50], nome_2[50];  /* Nome da cidade = 49 letras + \0 */
+    char estado_1, estado_2; /* Estado = 1 letra (A-H) */
+    char codigo_1[4], codigo_2[4]; /* Código da cidade = 3 letras (ex: A01) */
+    char nome_1[50], nome_2[50];  /* Nome da cidade */
     int populacao_1, populacao_2; /* População = número inteiro */
     float area_1, area_2; /* Área = número real */
     float pib_1, pib_2; /* PIB = número real */
